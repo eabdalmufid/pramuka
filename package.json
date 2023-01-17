@@ -1,0 +1,88 @@
+{
+  "name": "buku-saku-pramuka",
+  "version": "1.1.0",
+  "description": "Buku saku pramuka digital",
+  "homepage": "https://github.com/FatihArridho/pramuka#readme",
+  "bugs": {
+    "url": "https://github.com/FatihArridho/pramuka/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FatihArridho/pramuka.git"
+  },
+  "license": "MIT",
+  "author": "Fatih Arridho <https://fatiharridho.my.id/>",
+  "main": "index.js",
+  "scripts": {
+    "analyze:css": "rustywind --dry-run .",
+    "build": "NODE_ENV=production next build",
+    "build:export": "NODE_ENV=production pnpm run build && next export",
+    "export": "pnpm run build:export",
+    "postbuild": "next-sitemap",
+    "dev": "NODE_ENV=development next",
+    "fix:css": "rustywind --write .",
+    "format": "prettier --ignore-path .gitignore \"**/*.+(js|ts|tsx|css|scss|json|md|html)\" --write",
+    "postinstall": "husky install",
+    "lint": "eslint --ignore-path .eslintignore \"**/*.+(js|ts|tsx)\"",
+    "lint:fix": "eslint --ignore-path .eslintignore \"**/*.+(js|ts|tsx)\" --quiet --fix",
+    "prepare": "husky install",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@n8tb1t/use-scroll-position": "^2.0.3",
+    "cors": "^2.8.5",
+    "next": "12.2.2",
+    "next-plugin-preact": "^3.0.7",
+    "next-pwa": "5.5.4",
+    "next-seo": "^5.4.0",
+    "nprogress": "^0.2.0",
+    "preact": "^10.10.0",
+    "preact-render-to-string": "^5.2.1",
+    "react": "npm:@preact/compat@17.1.1",
+    "react-dom": "npm:@preact/compat@17.1.1",
+    "react-icons": "^4.4.0",
+    "react-ssr-prepass": "1.5.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@prefresh/next": "^1.5.2",
+    "@types/cors": "^2.8.12",
+    "@types/node": "^18.0.5",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "autoprefixer": "10.4.7",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "8.20.0",
+    "eslint-config-next": "^12.2.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "next-sitemap": "^3.1.11",
+    "prettier": "^2.7.1",
+    "rustywind": "0.15.0",
+    "tailwindcss": "3.1.6",
+    "typescript": "^4.7.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "minimist@<1.2.6": "^1.2.6"
+    }
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "packageManager": "pnpm@7.5.1"
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pramuka.fth.my.id
+
+# Sitemaps
+Sitemap: https://pramuka.fth.my.id/sitemap.xml
