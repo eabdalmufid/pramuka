@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://pramuka.fth.my.id
+Host: https://mypramuka.vercel.app/
 
 # Sitemaps
-Sitemap: https://pramuka.fth.my.id/sitemap.xml
+Sitemap: https://mypramuka.vercel.app/sitemap.xml
