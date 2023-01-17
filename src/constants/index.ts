@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 export const isDev = process.env.NODE_ENV === 'development'
-export const BASE_URL: string = process.env.NEXT_PUBLIC_BASE_URL || 'https://pramuka.fth.my.id'
+export const BASE_URL: string = process.env.NEXT_PUBLIC_BASE_URL || 'https://mypramuka.vercel.app/'
 const basePath = BASE_URL
 
 export const BASE_PATH = basePath || ''
