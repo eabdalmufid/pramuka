@@ -22,7 +22,7 @@
 
 ## Support me
 
-- 👉 🌍 [QRIS](https://bit.ly/QRISPAY)
+- 👉 [QRIS](https://bit.ly/QRISPAY)
 
 ---
 
