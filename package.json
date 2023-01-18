@@ -2,16 +2,16 @@
   "name": "buku-saku-pramuka",
   "version": "1.1.0",
   "description": "Buku saku pramuka digital",
-  "homepage": "https://github.com/FatihArridho/pramuka#readme",
+  "homepage": "https://github.com/eabdalmufid/pramuka#readme",
   "bugs": {
-    "url": "https://github.com/FatihArridho/pramuka/issues"
+    "url": "https://github.com/eabdalmufid/pramuka/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FatihArridho/pramuka.git"
+    "url": "git+https://github.com/eabdalmufid/pramuka.git"
   },
   "license": "MIT",
-  "author": "Fatih Arridho <https://fatiharridho.my.id/>",
+  "author": "Abdul Mufid",
   "main": "index.js",
   "scripts": {
     "analyze:css": "rustywind --dry-run .",
