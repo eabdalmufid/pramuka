@@ -15,7 +15,7 @@ function Footer() {
       <p className="mt-2">
         Cek juga:{' '}
         <a
-          href="https://github.com/eabdalmufid/quran"
+          href="https://eabdalmufid.github.io/quran"
           target="_blank"
           rel="noopenner noreferrer"
           className="font-bold text-link"
@@ -24,7 +24,7 @@ function Footer() {
         </a>
         {', '}
         <a
-          href="https://github.com/eabdalmufid/quran"
+          href="https://eabdalmufid.github.io/quran"
           target="_blank"
           rel="noopenner noreferrer"
           className="font-bold text-link"
