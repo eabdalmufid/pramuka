@@ -13,7 +13,7 @@ import { scrollTo } from '../utils'
 import Script from 'next/script'
 
 const url = BASE_PATH
-const authorName = 'Irfan Maulana'
+const authorName = 'Abdul Mufid'
 
 interface LayoutProps {
   children: ReactChild
