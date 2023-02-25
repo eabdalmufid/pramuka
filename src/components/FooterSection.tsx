@@ -4,23 +4,23 @@ function Footer() {
       <p>
         Dibuat oleh{' '}
         <a
-          href="https://fatiharridho.my.id"
+          href="https://github.com/eabdalmufid"
           target="_blank"
           rel="noopenner noreferrer"
           className="font-bold text-link"
         >
-          Fatih Arridho
+          Abdul Mufid
         </a>
       </p>
       <p className="mt-2">
         Cek juga:{' '}
         <a
-          href="https://ksana.in/?utm_source=pramuka"
+          href="https://github.com/eabdalmufid/quran"
           target="_blank"
           rel="noopenner noreferrer"
           className="font-bold text-link"
         >
-          Ksana.in
+          Qur'an
         </a>
         {', '}
         <a
