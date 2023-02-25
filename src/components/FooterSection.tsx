@@ -24,7 +24,7 @@ function Footer() {
         </a>
         {', '}
         <a
-          href="https://islamiah.fth.my.id"
+          href="https://github.com/eabdalmufid/quran"
           target="_blank"
           rel="noopenner noreferrer"
           className="font-bold text-link"
